@@ -4,6 +4,11 @@ const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
 const API_URL = `${BACKEND_URL}/api/users`;
 
+// const apiClient = axios.create({
+//   baseURL: "http://localhost:5000/api",   check my discord clone
+//   timeout: 2000,
+// });
+
 // Register user
 const register = async (userData) => {
   try {
